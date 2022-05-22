@@ -1,0 +1,133 @@
+.wrapper{
+    width: 100%;
+    height: 1000px;
+    background-color: silver;
+}
+
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: #03045e;
+}
+
+.logo{
+    width: 20%;
+    height: 120px;
+    background-color: #e2ece9;
+    float: left;
+}
+
+.banner{
+    width: 80%;
+    height: 120px;
+    background-color: #4cc9f0 ;
+    float: left;
+
+}
+
+.imageresponsive{
+    width: 100%;
+    height: 100%;
+
+}
+
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color:#8cb369;
+    float: left;
+}
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.menu ul li{
+    width: 11.11%;
+    float: left;
+}
+
+.menu ul li a{
+    background-color: #f4e285;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 5px;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.menu ul li a:hover{
+    background-color: #0aefff;
+    color: red;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.content{
+    background-color: #abc4ff;
+    width: 100%;
+    height: 600px;
+    float: left;
+}
+
+.Leftcontentbar{
+    width: 22%;
+    height: 600px;
+    background-color: azure;
+    float: left;
+}
+
+.middlecontentbar{
+    width: 56%;
+    height: 600px;
+    background-color:#ffd6ba;
+    float: left;
+}
+
+.Rightcontentbar{
+    width: 22%;
+    height: 600px;
+    background-color: azure;
+    float: left;
+}
+
+.bigfooter{
+    height: 120px;
+    background-color: #e9ff70;
+    width: 100%;
+    float: left;
+    display: flex;
+   justify-content: center;
+
+}
+
+
+.facebook{
+    width: 105px;
+    height: 80px;
+    float: left;
+    padding-left: 6px;
+}
+.linkIn{
+    width: 105px;
+    height: 12px;
+    float: left;
+    padding-left: 6px;
+}
+.youtube{
+    width: 105px;
+    height: 12px;
+    float: left;
+    padding-left: 6px;
+}
+    
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: #003459;
+    color: white;
+    text-align: center;
+    
+    float: left;
+}

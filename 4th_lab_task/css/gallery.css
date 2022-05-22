@@ -1,0 +1,194 @@
+.gallery_content{
+    width:100%;
+    height:780px;
+    background-color:#b56576;
+    float:left;
+  }
+  .box{
+    width:100%;
+    height:780px;
+    background-color:blueviolet;
+    margin:3px;
+    float:left;
+  }
+  .box .boxone{
+    height:250px;
+    width:24%;
+    background-color:red;
+    margin-left:10px;
+    margin-top:10px;
+    float:left;
+    transform: rotate(0deg);
+    background-image: url(../images/f1.jpg); 
+    background-size:cover;
+    transition: all 2s;
+  }
+  .box .boxone:hover{
+    transform: rotate(100deg);
+  }
+  .box .boxtwo{
+    height:250px;
+    width:24%;
+    background-color:red;
+    margin-left:10px;
+    margin-top:10px;
+    float:left;
+    transform: scale(1);
+    background-image: url(../images/f2.jpg);
+    background-size:cover;
+    transition: all 2s
+  }
+  .box .boxtwo:hover{
+    transform: scale(1.5);
+  }
+  .box .boxthree{
+    height:250px;
+    width:24%;
+    background-color:red;
+    margin-left:10px;
+    margin-top:10px;
+    float:left;
+    transform: skew(0deg);
+    background-image: url(../images/f3.jpg);
+    background-size:cover;
+    transition: all 2s
+  }
+  .box .boxthree:hover{
+    transform: skew(-30deg);
+  }
+  .box .boxfour{
+    height:250px;
+    width:24%;
+    background-color:red;
+    margin-left:10px;
+    margin-top:10px;
+    float:left;
+    transform: scale(1);
+    background-image: url(../images/f4.jpeg);
+    background-size:cover;
+    transition: all 2s
+  }
+  .box .boxfour:hover{
+    transform: scale(1.5);
+  }
+  .box .boxfive{
+    height:250px;
+    width:24%;
+    background-color:red;
+    margin-left:10px;
+    margin-top:10px;
+    float:left;
+    transform: rotate(0deg) scale(1);
+    background-image: url(../images/f5.jpg);
+    background-size:cover;
+    transition: all 2s
+  }
+  .box .boxfive:hover{
+    transform: rotate(180deg) scale(1.2);
+  }
+  .box .boxsix{
+    height:250px;
+    width:24%;
+    background-color:red;
+    margin-left:10px;
+    margin-top:10px;
+    float:left;
+    transform: rotate(0deg) skew(0deg);
+    background-image: url(../images/f6.jpg);
+    background-size:cover;
+    transition: all 2s
+  }
+  .box .boxsix:hover{
+    transform: rotate(280deg) skew(-22deg);
+  }
+  
+  .box .boxseven{
+    height:250px;
+    width:24%;
+    background-color:red;
+    margin-left:10px;
+    margin-top:10px;
+    float:left;
+    transform: rotate(0deg) skewX(0deg);
+    background-image: url(../images/f7.jpg);
+    background-size:cover;
+    transition: all 2s
+  }
+  .box .boxseven:hover{
+    transform: rotate(280deg) skewX(-20deg);
+  }
+  .box .boxeight{
+    height:250px;
+    width:24%;
+    background-color:red;
+    margin-left:10px;
+    margin-top:10px;
+    float:left;
+    transform: rotate(0deg) skewY(0deg);
+    background-image: url(../images/f8.jpg);
+    background-size:cover;
+    transition: all 2s
+  }
+  .box .boxeight:hover{
+    transform: rotate(360deg) skewY(-22deg);
+  }
+  .box .boxnine{
+    height:250px;
+    width:24%;
+    background-color:red;
+    margin-left:10px;
+    margin-top:10px;
+    float:left;
+    transform: scale(1) skewY(0deg);
+    background-image: url(../images/f9.jpeg);
+    background-size:cover;
+    transition: all 2s
+  }
+  .box .boxnine:hover{
+    transform: scale(1.3) skew(-22deg);
+  }
+  .box .boxten{
+    height:250px;
+    width:24%;
+    background-color:red;
+    margin-left:10px;
+    margin-top:10px;
+    float:left;
+    transform: scale(1) skewY(0deg);
+    background-image: url(../images/f10.jpg);
+    background-size:cover;
+    transition: all 2s
+  }
+  .box .boxten:hover{
+    transform: scale(1.3) skewY(-27deg);
+  }
+  .box .boxeleven{
+    height:250px;
+    width:24%;
+    background-color:red;
+    margin-left:10px;
+    margin-top:10px;
+    float:left;
+    transform: scale(1) skewX(0deg);
+    background-image: url(../images/f11.jpg);
+    background-size:cover;
+    transition: all 2s
+  }
+  .box .boxeleven:hover{
+    transform: scale(1.1) skewX(-22deg);
+  }
+  .box .boxtwelve{
+    height:250px;
+    width:24%;
+    background-color:red;
+    margin-left:10px;
+    margin-top:10px;
+    float:left;
+    transform: rotate(0deg) scale(1) skew(0deg);
+    background-image: url(../images/f12.jpg);
+    background-size:cover;
+    transition: all 2s
+  }
+  .box .boxtwelve:hover{
+    transform: rotate(360deg) scale(1.3) skewY(-30deg);
+  }
